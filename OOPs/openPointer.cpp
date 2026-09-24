@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
 class Cricketer{
+    private:
+     int runs;
     public:
-    int runs;
     string name;
     float average;
     Cricketer(string name,int runs, flaot average)
