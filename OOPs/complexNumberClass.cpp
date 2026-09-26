@@ -55,7 +55,7 @@ public:
 
     Complex Divison(Complex &c1,Complex &c2){
         Complex c3;
-        c3.num = c3.re; 
+        c3.num = c3.re;  
         c3.re = (c1.re*c2.re - c1.img*c2.img)/(c2.re*c2.re + c2.img*c2.img); 
         c3.img = (c1.img*c2.re - c1.re*c2.img)/(c2.re*c2.re + c2.img*c2.img); 
         return c3;
